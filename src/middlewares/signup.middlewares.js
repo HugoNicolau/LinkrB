@@ -1,6 +1,6 @@
 import bcrypt from "bcrypt";
-import { newUserSchema} from "../models/user.models.js"
-import { selectEmail } from "../repository/user.repository.js";
+import { newUserSchema} from "../models/signup.models.js"
+import { selectEmail } from "../repositories/signup.repositories.js";
 import dotenv from "dotenv";
 dotenv.config();
 

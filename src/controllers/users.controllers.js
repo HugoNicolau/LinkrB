@@ -1,3 +1,4 @@
+import { db } from "../database/database.js";
 import { idSchema } from "../models/users.models.js";
 
 export async function getUserById ( req, res ) {
