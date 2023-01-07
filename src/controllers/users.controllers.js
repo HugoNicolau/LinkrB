@@ -40,7 +40,7 @@ export async function getUserById ( req, res ) {
 };
 
 export async function supportUser ( req, res ) {
-    return res.status().send();
+    return res.status(200).send('oioi');
 };
 
 export async function getMyProfile ( req, res ) {
@@ -48,9 +48,9 @@ export async function getMyProfile ( req, res ) {
 };
 
 export async function updateMyProfile ( req, res ) {
-    return res.status().send();
+    return res.status(200).send('oioi');
 };
 
 export async function getMySupport ( req, res ) {
-    return res.status().send();
+    return res.status(200).send('oioi');
 };
