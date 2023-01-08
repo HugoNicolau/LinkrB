@@ -1,7 +1,7 @@
-// import bcrypt from "bcrypt";
-// import { registerUser} from "../repository/user.repository.js";
-// import dotenv from "dotenv";
-// dotenv.config();
+import bcrypt from "bcrypt";
+import { registerUser} from "../repositories/signup.repositories.js";
+import dotenv from "dotenv";
+dotenv.config();
 
 // export async function signUp(req, res) {
 //     const { name, email, password, url} = res.locals;
