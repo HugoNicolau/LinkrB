@@ -8,7 +8,7 @@ router.get('/users/:id', getUserById)
 router.post('/users/:id/support', supportUser)
 
 router.get('/users/me', getMyProfile)
-router.update('/users/me/update', updateMyProfile)
+router.put('/users/me/update', updateMyProfile)
 router.get('/users/me/my-support', getMySupport)
 
 export default router

@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 
 // route path
 import users from './routes/users.routes.js';
-import signup from './routes/signup.routes.js';
+// import signup from './routes/signup.routes.js';
 import posts from './routes/posts.routes.js'
 
 // config
@@ -15,7 +15,7 @@ const port = process.env.PORT || 5000;
 
 // routes
 server.use(users);
-server.use(signup);
+// server.use(signup);
 server.use(posts);
 
 // listen
