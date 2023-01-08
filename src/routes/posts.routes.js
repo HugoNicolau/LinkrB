@@ -1,4 +1,5 @@
 import { Router } from "express";
+import { validatePost } from "../middlewares/posts.middlewares.js";
 
 const router = Router();
 
