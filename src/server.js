@@ -12,6 +12,8 @@ server.use(express.json());
 dotenv.config();
 const port = process.env.PORT || 5000;
 
+process.env.NODE_TLS_REJECT_UNAUTHORIZED="0"
+
 // routes
 server.use(users);
 server.use(signup);
