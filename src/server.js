@@ -9,12 +9,12 @@ import  signin from "./routes/signin.routes.js"
 import signout from "./routes/signout.routes.js"
 import posts from './routes/posts.routes.js'
 
-
 // config
 const server = express();
 server.use(express.json());
 dotenv.config();
 const port = process.env.PORT || 5000;
+process.env.NODE_TLS_REJECT_UNAUTHORIZED="0"
 
 // routes
 server.use(users);
