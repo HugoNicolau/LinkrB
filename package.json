@@ -5,7 +5,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon src/server.js",
+    "dev": "nodemon src/server.js --ignore-certificate-errors",
     "start": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

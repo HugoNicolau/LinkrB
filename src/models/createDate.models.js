@@ -16,24 +16,3 @@ export async function generateDate () {
 
     return date_id;
 }
-
-function weekday(day) {
-    switch(day) {
-        case 1:
-            return 'sunday';
-        case 2:
-            return 'monday';
-        case 3:
-            return 'tuesday';
-        case 4:
-            return 'wednesday';
-        case 5:
-            return 'thrusday';
-        case 6:
-            return 'friday';
-        case 7:
-            return 'saturday';
-        default:
-            return 'invalid';
-    }
-}
