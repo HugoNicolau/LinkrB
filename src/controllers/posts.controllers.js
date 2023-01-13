@@ -21,8 +21,9 @@ export async function postPost(req, res){
 
 export async function getPost(req, res){
 
+    
     try{
-
+        
         const posts = await gettingPost();
         return res.status(200).send(posts);
     }   catch(err){
